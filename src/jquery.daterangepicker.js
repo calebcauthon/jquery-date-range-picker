@@ -2025,7 +2025,7 @@
                 }
             }
 
-            select += '</select>' + current + '</div>';
+            select += '</select><span>' + current + '</span></div>';
 
             return select;
         }
